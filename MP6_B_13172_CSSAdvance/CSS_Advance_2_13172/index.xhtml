@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Informasi dan Pendaftaran Workshop</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+
+<body>
+    <table class="infoWorkshop">
+        <tr>
+            <td class="jdlWrkshp" colspan="2">
+                <h1>Informasi Workshop UAJY</h1>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="introWrkshp">
+                <p>UAJY menyediakan banyak Workshop terbuka bagi umum.
+                    Segera dapatkan info terbaru mengenai Workshop di UAJY.
+                    Dapatkan ilmu dan pengalaman baru yang seru juga keren,
+                    serta perluas dan bangun relasi kalian melalui Workshop
+                    yang tersedia. Tunggu apa lagi? Ayo, jangan ragu-ragu! 
+                </p>
+            </td>
+
+            <td class="gmbrWrkshp">
+                <p class="intro" style="text-align: center;">
+                    Elok arunika hias cakrawala,<br />
+                    Diri terpaku bergumul renjana.<br />
+                    Bertelanjang kaki gapai arutala,<br />
+                    Raih pranahara dari link yang tersedia.
+                </p>
+
+                <a href="https://www.instagram.com/uajy_events?utm_source=ig_web_button_share_sheet&amp;cplk=ZDNlZDc0MzIxNw==">
+                    <img src="https://i.pinimg.com/736x/b7/36/02/b7360212247228b60221b6da8401af09.jpg"
+                        alt="Klik gambar yang tersedia untuk mendapatkan informasi Workshop lainnya di instagram UAJY Events" />
+                </a>
+            </td>
+        </tr>
+    </table><br />
+
+    <br /><br /><div id="formWrkshp">
+        <h1>Formulir Pendaftaran Workshop</h1>        
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset class="dtPsrta">
+                <legend>Data Peserta</legend>
+                <table cellspacing="4" cellpadding="4" border="1"
+                        style="border-collapse:collapse; width:100%;">
+                    <tr>
+                        <td class="labelPsrta">
+                            <label for="nama"><strong>Nama Lengkap</strong></label>
+                        </td>
+
+                        <td><input type="text" id="nama" name="nama" size="30" /></td>
+                    </tr>
+    
+                    <tr>
+                        <td class="labelPsrta">
+                            <label for="npm"><strong>NPM</strong></label>
+                        </td>
+                        <td><input type="text" id="npm" name="npm" size="30" /></td>
+                    </tr>
+    
+                    <tr>
+                        <td class="labelPsrta">
+                            <strong>Jenis Kelamin</strong>
+                        </td>
+                        <td>
+                            <input type="radio" id="laki" name="jk" value="Laki-laki" />
+                            <label for="laki">Laki-laki</label>
+        
+                            <input type="radio" id="perempuan" name="jk" value="Perempuan" />
+                            <label for="perempuan">Perempuan</label>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="labelPsrta" style="width: 32%;">
+                            <label for="prodi"><strong>Program Studi</strong></label>
+                        </td>
+                        <td>
+                            <select id="prodi" name="prodi">
+                                <option>Informatika</option>
+                                <option>Sistem Informasi</option>
+                                <option>Teknik Industri</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+    
+            <fieldset class="plhnWrkshp">
+                <legend>Pilihan Workshop</legend>
+                <table cellspacing="4" cellpadding="4" border="1"
+                        style="border-collapse:collapse; width:100%;">
+                    <tr>
+                        <td class="lblPlhan">
+                            <strong>Jenis Peserta</strong>
+                        </td>
+                        <td>
+                            <input type="radio" id="mhs" name="jP" value="Mahasiswa" />
+                            <label for="mhs">Mahasiswa</label>
+        
+                            <input type="radio" id="umum" name="jP" value="Umum" />
+                            <label for="umum">Umum</label>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="lblPlhan"><strong>Materi Workshop</strong></td>
+                        <td>
+                            <table class="minat" cellspacing="4" cellpadding="4" border="1">
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" id="uiux"
+                                                name="materi" />
+                                        <label for="uiux">UI/UX Design</label>
+                                    </td>
+    
+                                    <td>
+                                        <input type="checkbox" id="webdev"
+                                            name="materi" />
+                                        <label for="webdev">Web Development</label>
+                                    </td>
+    
+                                    <td>
+                                        <input type="checkbox" id="dtanalis"
+                                            name="materi" />
+                                        <label for="dtanalis">Data Analysis</label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+    
+            <fieldset class="infoTmbhan">
+                <legend>Informasi Tambahan</legend>
+                <table cellspacing="4" cellpadding="4" border="1"
+                        style="border-collapse:collapse; width:100%;">
+                    <tr>
+                        <td class="lblTmbhan">
+                            <label for="alasan"><strong>Alasan Mengikuti Workshop</strong></label>
+                        </td>
+                        <td>
+                            <textarea id="alasan" name="alasan"
+                                        rows="8" cols="30"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="lblTmbhan"><strong>Jenis Pembayaran</strong>
+                        </td>
+                        <td>
+                            <input type="radio" id="qris" name="byr" value="Qris" />
+                            <label for="qris">Qris</label>
+        
+                            <input type="radio" id="tfbank" name="byr" value="Transfer Bank" />
+                            <label for="tfbank">Transfer Bank</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="lblTmbhan">
+                            <label for="buktibayar"><strong>Bukti Pembayaran</strong></label>
+                        </td>
+                        <td>
+                            <input type="file" id="buktibayar" name="buktibayar"
+                                    accept="application/pdf" />
+                        </td>
+                    </tr>
+                </table><br />
+            </fieldset>
+
+            <p style="text-align: center;">
+                <input type="submit" name="daftar" value="Daftar" />
+            </p>
+    
+        </form>
+    </div>
+</body>
+</html>

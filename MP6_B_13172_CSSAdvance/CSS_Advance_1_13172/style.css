@@ -1,0 +1,191 @@
+body {
+    background: linear-gradient(
+        to bottom,
+        rgba(249, 216, 197, 0.9),
+        rgba(255, 239, 225, 0.9),
+        rgba(234, 186, 200, 0.7)
+    );
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+#info, #formDftr {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 20px;
+    padding: 10px 30px 5px 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: left;
+    box-shadow: 0 0.5px 1px 0 rgb(218, 185, 169);
+    background-color: rgba(255, 252, 249, 0.95);
+    color: rgb(91, 69, 60);
+}
+
+
+#info h1, #formDftr h1 {
+    text-align: center;
+    margin-left: -30px;
+    margin: -10px -30px 0 -20px;
+    padding: 20px 0;
+    background-color: rgb(249, 216, 197);
+    color: rgb(121, 76, 59);
+}
+
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(230, 233, 220);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    transition: all 0.25s linear;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(91, 112, 81);
+}
+
+.link:hover {
+    background-color: rgb(166, 183, 155);
+    transform: scale(1.05);
+}
+
+.link:hover a {
+    color: rgb(255,255,255);
+}
+
+
+.orgnisasi {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.orgnisasi th, .orgnisasi td {
+    border: 1px solid rgb(232, 205, 191);
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.orgnisasi th {
+    background-color: rgb(255, 239, 225);
+    color: rgb(75, 73, 67);
+}
+
+.orgnisasi td ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.orgnisasi td a {
+    color: rgb(184, 112, 123);
+    text-decoration: none;
+    transition: color 0.25s linear;
+}
+
+.orgnisasi td a:visited {
+    color: rgb(160, 112, 140);
+}
+
+.orgnisasi td a:hover {
+    color: rgb(121, 76, 59);
+    text-decoration: underline;
+}
+
+.orgnisasi td a:active {
+    color: rgb(217, 149, 120);
+}
+
+#formDftr h3 {
+    text-align: left;
+}
+
+#formDftr td {
+    padding: 4px;
+}
+
+.orgnisasi {
+    border: 1px solid rgb(210, 210, 198);
+}
+
+
+.minat {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.minat th, .minat td {
+    border: 1px solid rgb(210, 210, 198);
+    padding: 10px;
+    text-align: left;
+}
+
+.minat th {
+    background-color: rgb(230, 233, 220);
+    color: rgb(75, 73, 67);
+}
+
+
+#formDftr input[type="text"],
+#formDftr input[type="email"],
+#formDftr input[type="number"],
+#formDftr input[type="tel"],
+#formDftr textarea {
+    padding: 8px;
+    border: 1px solid rgb(210, 210, 198);
+    border-radius: 4px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+#formDftr textarea {
+    width: 95%;
+    min-height: 100px;
+    resize: vertical;
+}
+
+
+#formDftr input[type="submit"] {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(190, 202, 184);
+    color: rgb(58, 69, 55);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
+
+#formDftr input[type="submit"]:hover {
+    background-color: rgb(166, 183, 155);
+    transform: scale(1.03);
+}
+
+.infoTmbhan {
+    border: 1px solid rgb(210, 210, 198);
+}
+
+.infoTmbhan table {
+    border: 1px solid rgb(232, 205, 191);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.infoTmbhan td {
+    border: 1px solid rgb(232, 205, 191);
+    padding: 10px;
+}
